@@ -13,40 +13,37 @@ Ministry of Consumer Affairs, Food & Public Distribution
 Agriculture, FoodTech & Rural Development
 
 ## Problem Description
-Expected Solution: Create a digital marketplace that:
+My idea is called **Harvest Circle**. It is a simple website that helps nearby buyers and farmers connect.
 
-• Connects farmers/FPOs directly with consumers and bulk buyers.
-• Provides logistics support.
-• Uses AI for demand forecasting and route optimization.
-
-Benefits:
-
-• Better prices for farmers.
-• Lower prices for consumers.
-• Reduced supply chain inefficiencies.
-
-## Proposed Solution
-Remove These Lines
-1. Detailed explanation of the proposed solution
-2. How it addresses the problem
-3. Innovation and uniqueness of the solution
+Buyers can post what crops they need. The website combines requests from nearby shops, hotels and families into one group order. Farmers can check the order and decide whether they want to supply it. This helps small farmers find buyers without depending on many middlemen.
 
 ## Technical Approach
-Remove These Lines
-1. Technologies to be used (e.g. programming languages, frameworks, hardware)
-2. Methodology and process for implementation <b>(Flow Charts/Images/ working prototype)</b>
+I would first make a basic website using:
+- HTML, CSS and JavaScript for the website.
+- Python for matching nearby orders.
+- MySQL to store farmer, buyer and order details.
+- A map service to show pickup points and delivery locations.
+
+**Working flow:**
+
+Buyer adds a crop request ─┐
+                          ├─> Website groups nearby orders
+Farmer lists available crops ┘
+                                  ↓
+                         Farmer accepts the order
+                                  ↓
+                         Common pickup and delivery
 
 ## Feasibility and Viability
-Remove These Lines
-1. Analysis of the feasibility of the idea
-2. Potential challenges and risks
-3. Strategies for overcoming these challenges
+This idea can first be tested in one town with a few farmers and shops. It can use existing transport, so we do not need to own vehicles. One challenge is that crop quantity may change, so farmers should be able to update their available stock.
 
 ## Impact and Benefits
-Remove These Lines
-1. Potential impact on the target audience
-2. Benefits of the solution (social, economic, environmental, etc.)
+- Farmers can reach more buyers and may earn a better price.
+- Buyers can get crops directly from nearby farmers.
+- Grouping orders can reduce delivery costs.
+- Farmers can see what buyers need before sending their crops to market.
 
 ## Research and References
-Remove These Lines
-1. Details / Links of the reference and research work
+1. e-NAM - https://www.enam.gov.in/
+2. Small Farmers' Agribusiness Consortium - https://sfacindia.com/
+3. AGMARKNET - https://agmarknet.gov.in/
