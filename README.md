@@ -34,15 +34,15 @@ I would start by making a simple website and later improve it into a mobile app.
 **Working flow:**
 
 Farmer adds expected crop, quantity and harvest date
-                         ↓
+                         →
 Buyer posts crop requirement and delivery area
-                         ↓
+                         →
 FarmSync matches nearby farmers and buyer requests
-                         ↓
+                         →
 Small orders are grouped and a pickup point is suggested
-                         ↓
+                         →
 Farmer confirms the quantity and price
-                         ↓
+                         →
 Crops are collected and delivered to the buyers
 
 ## Feasibility and Viability
