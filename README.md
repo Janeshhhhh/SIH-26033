@@ -1,4 +1,4 @@
-# Smart India Hackathon Workshop
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/ac9369f1-232f-412c-b489-0beed36997fb" /># Smart India Hackathon Workshop
 # Date: 24.11.2026
 ## Reference Number: 26017589
 ## Name: Janesh.M
@@ -32,19 +32,9 @@ I would start by making a simple website and later improve it into a mobile app.
 - A basic prediction model can use previous orders and seasonal demand to estimate which crops may be needed more. Route planning can help choose a suitable delivery path.
 
 **Working flow:**
-<center>
-Farmer adds expected crop, quantity and harvest date<br>
-                         ↓ <br>
-Buyer posts crop requirement and delivery area <br>
-                         ↓ <br>
-FarmSync matches nearby farmers and buyer requests <br>
-                         ↓ <br>
-Small orders are grouped and a pickup point is suggested <br>
-                         ↓ <br>
-Farmer confirms the quantity and price <br>
-                         ↓ <Br>
-Crops are collected and delivered to the buyers
-</center>
+<img width="1672" height="941" alt="07d1be48-b957-4624-ab0f-b38721f728f1" src="https://github.com/user-attachments/assets/9f0a8d09-89f0-450c-aa44-f12e4e08125f" />
+
+
 
 ## Feasibility and Viability
 FarmSync can first be tested in one nearby area with a few farmers and shops. It does not need its own vehicles because local transport services can be used. One challenge is that the actual harvest quantity may change due to weather or other reasons. Farmers should be able to update their stock and harvest date so buyers receive correct information.
