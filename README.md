@@ -1,4 +1,4 @@
-<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/ac9369f1-232f-412c-b489-0beed36997fb" /># Smart India Hackathon Workshop
+# Smart India Hackathon Workshop
 # Date: 24.11.2026
 ## Reference Number: 26017589
 ## Name: Janesh.M
