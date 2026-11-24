@@ -4,44 +4,56 @@
 ## Name: Janesh.M
 
 ## Problem Title
-SIH 26033: Multiple intermediaries reduce farmers earnings and increase consumer prices.
+SIH 26033: Multiple intermediaries reduce farmers' earnings and increase consumer prices.
 
-## Problem Creater's Organization
+## Problem Creator's Organization
 Ministry of Consumer Affairs, Food & Public Distribution
 
 ## Theme
 Agriculture, FoodTech & Rural Development
 
 ## Problem Description
-My idea is called **Harvest Circle**. It is a simple website that helps nearby buyers and farmers connect.
+Farmers often sell their crops through several middlemen. Because of this, farmers may receive a low price while the same products reach customers at a much higher price. It can also be difficult for farmers to know how much quantity buyers need before harvesting.
 
-Buyers can post what crops they need. The website combines requests from nearby shops, hotels and families into one group order. Farmers can check the order and decide whether they want to supply it. This helps small farmers find buyers without depending on many middlemen.
+## Proposed Solution
+My app idea is called **FarmSync**. It is a platform that connects farmers directly with shops, hotels, supermarkets and local customers.
+
+The main feature of FarmSync is a **Harvest Planner**. Farmers can add the crops they expect to harvest, the approximate quantity and the harvest date. Buyers can post what they need and when they need it. FarmSync matches these requests with nearby farmers. It can also combine smaller orders from nearby buyers into one larger order, so farmers can sell more quantity in a single trip.
+
+The app can show a suggested price using recent local market prices as a reference. It can also group orders by area and suggest a common pickup point. This helps farmers plan before taking their crops to the market and helps buyers avoid unnecessary extra costs.
 
 ## Technical Approach
-I would first make a basic website using:
-- HTML, CSS and JavaScript for the website.
-- Python for matching nearby orders.
-- MySQL to store farmer, buyer and order details.
-- A map service to show pickup points and delivery locations.
+I would start by making a simple website and later improve it into a mobile app.
+
+- HTML, CSS and JavaScript for the website pages.
+- Python for matching buyer requests with nearby farmers and available crops.
+- MySQL to store farmer, buyer, crop and order details.
+- A map service to show nearby farms, pickup points and delivery locations.
+- A basic prediction model can use previous orders and seasonal demand to estimate which crops may be needed more. Route planning can help choose a suitable delivery path.
 
 **Working flow:**
 
-Buyer adds a crop request ─┐
-                          ├─> Website groups nearby orders
-Farmer lists available crops ┘
-                                  ↓
-                         Farmer accepts the order
-                                  ↓
-                         Common pickup and delivery
+Farmer adds expected crop, quantity and harvest date
+                         ↓
+Buyer posts crop requirement and delivery area
+                         ↓
+FarmSync matches nearby farmers and buyer requests
+                         ↓
+Small orders are grouped and a pickup point is suggested
+                         ↓
+Farmer confirms the quantity and price
+                         ↓
+Crops are collected and delivered to the buyers
 
 ## Feasibility and Viability
-This idea can first be tested in one town with a few farmers and shops. It can use existing transport, so we do not need to own vehicles. One challenge is that crop quantity may change, so farmers should be able to update their available stock.
+FarmSync can first be tested in one nearby area with a few farmers and shops. It does not need its own vehicles because local transport services can be used. One challenge is that the actual harvest quantity may change due to weather or other reasons. Farmers should be able to update their stock and harvest date so buyers receive correct information.
 
 ## Impact and Benefits
-- Farmers can reach more buyers and may earn a better price.
-- Buyers can get crops directly from nearby farmers.
-- Grouping orders can reduce delivery costs.
-- Farmers can see what buyers need before sending their crops to market.
+- Farmers can find buyers directly and reduce their dependence on middlemen.
+- Buyers can compare prices and purchase from nearby farms.
+- The Harvest Planner helps farmers understand demand before harvesting.
+- Group orders and shared pickup points can reduce transport costs.
+- Better demand information may help reduce unsold crops and food waste.
 
 ## Research and References
 1. e-NAM - https://www.enam.gov.in/
