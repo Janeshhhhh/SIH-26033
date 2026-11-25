@@ -61,3 +61,4 @@ FarmSync can first be tested in one nearby area with a few farmers and shops. It
 3. AGMARKNET - https://agmarknet.gov.in/
 4. Digital India – https://www.digitalindia.gov.in/
 5. FAO (Food and Agriculture Organization).
+6. DBSCAN reference - https://scikit-learn.org/
