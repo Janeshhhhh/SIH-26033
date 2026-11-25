@@ -59,3 +59,5 @@ FarmSync can first be tested in one nearby area with a few farmers and shops. It
 1. e-NAM - https://www.enam.gov.in/
 2. Small Farmers' Agribusiness Consortium - https://sfacindia.com/
 3. AGMARKNET - https://agmarknet.gov.in/
+4. Digital India – https://www.digitalindia.gov.in/
+5. FAO (Food and Agriculture Organization).
