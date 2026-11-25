@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date: 24.11.2026
-## Reference Number: 26017589
-## Name: Janesh.M
+# Date: 25.11.2026
+## Reference Number: **26017589**
+## Name: **Janesh.M**
 
 ## Problem Title
 SIH 26033: Multiple intermediaries reduce farmers' earnings and increase consumer prices.
